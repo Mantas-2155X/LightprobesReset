@@ -9,3 +9,7 @@ This plugin fixes possible broken lightmaps after changing map in studio
 
 **Installation:**  
 * Unzip `AI_LightprobesReset.zip` into your game directory. If done correctly, in `BepInEx/plugins/2155X/` you should see `AI_LightprobesReset.dll`  
+
+**Thanks to:**
+* kky-is#3681 for providing the line of code to null out the lightprobes  
+* ...
