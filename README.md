@@ -2,6 +2,8 @@
 
 This plugin fixes possible broken lightmaps after changing map in studio
 
+# DO NOT REUPLOAD WITHOUT PERMISSION | 未经许可请勿转载
+
 **Download:**  
 * Download the latest `AI_LightprobesReset.zip` from https://github.com/Mantas-2155X/AI_LightprobesReset/releases  
 
