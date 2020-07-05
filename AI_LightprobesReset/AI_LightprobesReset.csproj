@@ -33,26 +33,32 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\lib\BepInEx\0Harmony.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\media\illusion\Ai-Syoujyo\BepInEx\core\0Harmony.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\lib\AISyoujyo\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\media\illusion\Ai-Syoujyo\AI-Syoujyo_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="BepInEx, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\lib\BepInEx\BepInEx.dll</HintPath>
+    <Reference Include="BepInEx, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\..\media\illusion\Ai-Syoujyo\BepInEx\core\BepInEx.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="BepInEx.Harmony, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\lib\BepInEx\BepInEx.Harmony.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\media\illusion\Ai-Syoujyo\BepInEx\core\BepInEx.Harmony.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\lib\AISyoujyo\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\media\illusion\Ai-Syoujyo\AI-Syoujyo_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\lib\AISyoujyo\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\media\illusion\Ai-Syoujyo\AI-Syoujyo_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
