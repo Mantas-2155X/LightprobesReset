@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AI_LightprobesReset")]
+[assembly: AssemblyTitle("HS2_LightprobesReset")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Mantas-2155X aka 2155X")]
-[assembly: AssemblyProduct("AI_LightprobesReset")]
+[assembly: AssemblyProduct("HS2_LightprobesReset")]
 [assembly: AssemblyCopyright("Mantas-2155X aka 2155X Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9A580482-060C-4C8E-B45A-84344E322EFF")]
+[assembly: Guid("5AF9D670-0435-47F3-B3AE-A06FC4D8CAAA")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -31,5 +31,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion(AI_LightprobesReset.AI_LightprobesReset.VERSION)]
-[assembly: AssemblyFileVersion(AI_LightprobesReset.AI_LightprobesReset.VERSION)]
+[assembly: AssemblyVersion(HS2_LightprobesReset.HS2_LightprobesReset.VERSION)]
+[assembly: AssemblyFileVersion(HS2_LightprobesReset.HS2_LightprobesReset.VERSION)]

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI_LightprobesReset", "AI_LightprobesReset\AI_LightprobesReset.csproj", "{9A580482-060C-4C8E-B45A-84344E322EFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS2_LightprobesReset", "HS2_LightprobesReset\HS2_LightprobesReset.csproj", "{5AF9D670-0435-47F3-B3AE-A06FC4D8CAAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{9A580482-060C-4C8E-B45A-84344E322EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A580482-060C-4C8E-B45A-84344E322EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A580482-060C-4C8E-B45A-84344E322EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF9D670-0435-47F3-B3AE-A06FC4D8CAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF9D670-0435-47F3-B3AE-A06FC4D8CAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF9D670-0435-47F3-B3AE-A06FC4D8CAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF9D670-0435-47F3-B3AE-A06FC4D8CAAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

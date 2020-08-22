@@ -6,14 +6,14 @@ using AIChara;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-namespace AI_LightprobesReset
+namespace HS2_LightprobesReset
 {
-    [BepInPlugin(nameof(AI_LightprobesReset), nameof(AI_LightprobesReset), VERSION)][BepInProcess("StudioNEOV2")]
-    public class AI_LightprobesReset : BaseUnityPlugin
+    [BepInPlugin(nameof(HS2_LightprobesReset), nameof(HS2_LightprobesReset), VERSION)][BepInProcess("StudioNEOV2")]
+    public class HS2_LightprobesReset : BaseUnityPlugin
     {
         public const string VERSION = "1.1.0";
 
-        private void Awake() => Harmony.CreateAndPatchAll(typeof(AI_LightprobesReset));
+        private void Awake() => Harmony.CreateAndPatchAll(typeof(HS2_LightprobesReset));
         
         [HarmonyPostfix]
         [HarmonyPatch(typeof(Studio.Studio), nameof(Studio.Studio.AddFemale))]
