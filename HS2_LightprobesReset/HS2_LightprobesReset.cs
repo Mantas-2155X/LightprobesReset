@@ -16,9 +16,9 @@ namespace HS2_LightprobesReset
         private void Awake() => Harmony.CreateAndPatchAll(typeof(HS2_LightprobesReset));
         
         [HarmonyPostfix]
-        [HarmonyPatch(typeof(Studio.Studio), nameof(Studio.Studio.AddFemale))]
-        [HarmonyPatch(typeof(Studio.Studio), nameof(Studio.Studio.AddMale))]
-        [HarmonyPatch(typeof(Studio.Studio), nameof(Studio.Studio.LoadScene))]
+        [HarmonyPatch(typeof(Studio.Studio), "AddFemale")]
+        [HarmonyPatch(typeof(Studio.Studio), "AddMale")]
+        [HarmonyPatch(typeof(Studio.Studio), "LoadScene")]
         public static void Studio_SetupProbes_Patch() => SetupProbes();
         
         [HarmonyPrefix]
