@@ -1,8 +1,12 @@
 # LightprobesReset
 
-This plugin fixes possible broken lightmaps after changing map in studio
+This plugin fixes neck seam and other light related issues in the Studio
 
 # DO NOT REUPLOAD WITHOUT PERMISSION | 未经许可请勿转载
+
+**Features:**
+* Fix neck seam issue caused by lightprobes
+* Fix maps becoming dark/black after switching
 
 **Download:**  
 * Download the latest `GAME_LightprobesReset.zip` from https://github.com/Mantas-2155X/LightprobesReset/releases  
